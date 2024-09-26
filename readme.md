@@ -46,3 +46,10 @@ The Data Preparation Pipeline has modules and scripts as indicated below:
   > Make sure to use the name given to your elasticsearch service in your docker compose file followed by the port as the connection string, e.g `<docker-compose-service-name><port>` http://elasticsearch:9200
 - **Retrieval: Test Vector Search Query:** After exporting the chunks and embeddings, test the search query to retrieve relevant documents on sample queries. ([code](https://raw.githubusercontent.com/quickSilverShanks/LLMs---Mage--Zoomcamp/main/code/retrieval.py))
 - **Trigger Daily Runs:** Automation is key to maintaining and updating the system. Mage.ai can be used to schedule and trigger daily runs for the data pipelines developed above, ensuring up-to-date and consistent data processing.
+
+
+## Useful Links
+
+- Mage Error Fixes: [file](https://raw.githubusercontent.com/quickSilverShanks/LLMs---Mage--Zoomcamp/main/mage_rag_notes.md)
+- Zoomcamp: [repository](https://github.com/DataTalksClub/llm-zoomcamp)
+- Link to my main QA bot repository with multiple other 'in-progress' learning modules: [repository](https://github.com/quickSilverShanks/DataWhiz-Chat)
